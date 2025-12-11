@@ -1,8 +1,8 @@
 import mne
 import matplotlib.pyplot as plt
 
-eeg_file_raw = r"/Users/josephthi/Desktop/UCI_Classes/cs184A/CS_184A_Final Project/ds004504/sub-001/eeg/sub-001_task-eyesclosed_eeg.set"
-spectogram_file = r"/Users/josephthi/Desktop/UCI_Classes/cs184A/CS_184A_Final Project/spectrogram/sub-001_spe.npy"
+eeg_file_raw = r"/Users/josephthi/Desktop/UCI_Classes/cs184A/CS_184A_Final Project/data/ds004504/sub-001/eeg/sub-001_task-eyesclosed_eeg.set"
+spectogram_file = r"/Users/josephthi/Desktop/UCI_Classes/cs184A/CS_184A_Final Project/data/spectrogram/sub-001_spe.npy"
 
 # Load raw EEG
 def display_raw_data(eeg_file_raw):
@@ -20,4 +20,11 @@ def display_spectogram_data(data):
     plt.specgram(data[:][0][0], Fs=128, cmap='jet_r')
     plt.show()
 
-display_spectogram_data(spectogram_file)
+display_raw_data(eeg_file_raw)
+
+
+    sub-*
+        └── eeg
+            ├── sub-*_task-eyesclosed_channels.tsv
+            ├── sub-*_task-eyesclosed_eeg.json
+            └── sub-0*_task-eyesclosed_eeg.set 
