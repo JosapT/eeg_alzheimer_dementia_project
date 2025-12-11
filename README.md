@@ -2,7 +2,7 @@
 Clustering EEG to spectrogram data preprocessing with CNN training for each cluster
 
 # **Python Version**
-Make sure Python 3.10.19 is installed
+Python 3.10.19
 
 # **Libraries**
 **Install with conda**
