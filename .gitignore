@@ -4,3 +4,4 @@ mobilenet_checkpoints
 model_outputs
 models
 resnet_checkpoints
+.DS_Store
