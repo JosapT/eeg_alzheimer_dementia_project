@@ -1,1 +1,1 @@
-**Clustering + CNN for Alzheimers and Dementia Detection**
+# **Clustering + CNN for Alzheimers and Dementia Detection**
