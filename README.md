@@ -2,13 +2,13 @@
 This project utilizes a combination of Clustering and Convolutional Neural Networks to classify people with Alzheimer's or Dementia using EEG data
 
 # **Python Version**
-Python 3.10.19
+**Python 3.10.19**
 
-# **Libraries (BEFORE RUNNING)**
+# **Libraries (INSTALL BEFORE RUNNING)**
 ```
 pip install -r requirements.txt
 ```
-**Install with conda**
+**Installation if using conda**
 ```
 conda install --yes --file requirements.txt
 ```
