@@ -373,6 +373,6 @@ def train_individual_cluster(model, train_loader, val_loader, criterion, optimiz
 
 
 if __name__ == "__main__":
-    cluster_base_dir = 'data/clustered_k6' #Base directory containing post-processed clustered data
+    cluster_base_dir = 'sample_data' #Base directory containing post-processed clustered data
     output_base_dir = 'models/cluster_models' #Where the best model checkpoints and metrics will be saved
     process_all_clusters(cluster_base_dir=cluster_base_dir, output_dir=output_base_dir)
