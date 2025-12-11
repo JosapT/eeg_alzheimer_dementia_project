@@ -5,10 +5,12 @@ This project utilizes a combination of Clustering and Convolutional Neural Netwo
 Python 3.10.19
 
 # **Libraries (BEFORE RUNNING)**
-**Install with conda**
-
 ```
-conda install pytorch matplotlib numpy scipy scikit-learn mne
+pip install -r requirements.txt
+```
+**Install with conda**
+```
+conda install --yes --file requirements.txt
 ```
 
 # **Instructions**
