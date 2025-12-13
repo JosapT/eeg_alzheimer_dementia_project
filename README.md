@@ -6,7 +6,7 @@ Alzheimer’s Disease is a brain disorder characterized by impairment and declin
 ## Proposed Methodology
 To address these challenges, our proposed methodology utilizes clustering to categorize hidden patterns in the signal, ideally including those that come from artifacts or variations in the patient’s state of mind. The objective is to focus on the inherent differences between Alzheimer's and healthy patients as opposed to the unwanted fluctuations. After clustering, a classifier is trained on each group to determine if the patient exhibits signs of Alzheimer’s. To evaluate a new datapoint, it would first be assigned to the most appropriate cluster, and then the point is passed through the cluster’s classifier to identify if the patient has Alzheimer’s or not. 
 
-## Datset
+## Dataset
 **Dataset Source:** https://openneuro.org/datasets/ds004504/versions/1.0.7
 **Access:** The dataset can be downloaded using Git Annex
 
