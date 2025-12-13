@@ -1,5 +1,7 @@
 # **Clustering + CNN for Alzheimers and Dementia Detection**
-This project utilizes a combination of Clustering and Convolutional Neural Networks to classify people with Alzheimer's or Dementia using EEG data
+This project utilizes a combination of Clustering and Convolutional Neural Networks to classify people with Alzheimer's or Dementia using EEG data. Dataset can be downloaded from https://openneuro.org/datasets/ds004504/versions/1.0.7 with Git Annex.
+
+
 
 # **Python Version**
 **Python 3.10.19**
@@ -13,7 +15,7 @@ pip install -r requirements.txt
 conda install --yes --file requirements.txt
 ```
 
-# **Instructions**
+# **Demo Instructions**
 1. Clone the repository
 ```
 git clone https://github.com/JosapT/eeg_alzheimer_dementia_project
