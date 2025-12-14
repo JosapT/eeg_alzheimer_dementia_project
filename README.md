@@ -21,6 +21,7 @@ It is recommened to use a virtual environment like conda or venv to manage depen
 pip install -r requirements.txt
 ```
 **Installation if using conda**
+
 You can add --name (name) after create to change the name environment
 ```
 conda env create -f environment.yml
