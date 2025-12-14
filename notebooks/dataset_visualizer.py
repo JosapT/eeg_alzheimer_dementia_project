@@ -23,8 +23,3 @@ def display_spectogram_data(data):
 display_raw_data(eeg_file_raw)
 
 
-    sub-*
-        └── eeg
-            ├── sub-*_task-eyesclosed_channels.tsv
-            ├── sub-*_task-eyesclosed_eeg.json
-            └── sub-0*_task-eyesclosed_eeg.set 
