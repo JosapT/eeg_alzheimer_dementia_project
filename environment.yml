@@ -9,8 +9,6 @@ dependencies:
   - matplotlib
   - mne
   - ipykernel
-  - pip
-  - pip:
-      - torch
-      - torchvision
-      - torchaudio
+  - pytorch
+  - torchvision
+  - torchaudio
