@@ -26,6 +26,7 @@ You can add --name (name) after create to change the name environment
 ```
 conda env create -f environment.yml
 ```
+Note: If notebooks are crashing and the script is not working, there is most likely two versions of libomp conflicted on brew and conda
 
 ## **Demo Instructions**
 1. Clone the repository
